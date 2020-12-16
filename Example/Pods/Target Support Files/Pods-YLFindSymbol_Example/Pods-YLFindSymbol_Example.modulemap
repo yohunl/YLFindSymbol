@@ -1,0 +1,6 @@
+framework module Pods_YLFindSymbol_Example {
+  umbrella header "Pods-YLFindSymbol_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

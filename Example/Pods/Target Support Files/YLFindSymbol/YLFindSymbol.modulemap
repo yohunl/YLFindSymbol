@@ -1,0 +1,6 @@
+framework module YLFindSymbol {
+  umbrella header "YLFindSymbol-umbrella.h"
+
+  export *
+  module * { export * }
+}

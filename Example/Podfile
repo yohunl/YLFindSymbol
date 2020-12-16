@@ -1,6 +1,10 @@
-use_frameworks!
+#use_frameworks!
 
-platform :ios, '9.0'
+
+inhibit_all_warnings!
+install! 'cocoapods',:generate_multiple_pod_projects => true
+
+platform :ios, '10.0'
 
 target 'YLFindSymbol_Example' do
   pod 'YLFindSymbol', :path => '../'

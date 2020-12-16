@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25819D3A2EB63797378D6BCADB81C9CC /* YLImageSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF97A2AA5EFCCBAC3AE03F0B1B9DECF /* YLImageSymbol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70C341AC8295222163DD6C2796D51E26 /* YLImageSymbol.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4313135B8D063B565CBF9A58ED433CD8 /* YLImageSymbol.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A3B6CA0D47B9D1EF81265CFF77C16F7A /* YLFindSymbol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6007475139F74D955C069F0E52A0E /* YLFindSymbol-dummy.m */; };
+		CC34D78D4060428EF51206B0EC247C2E /* YLFindSymbol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2202ADE022573D31D22F446BD4E2FDB4 /* YLFindSymbol.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D83D9DB8AF18B35F7CBA84E8167A51A8 /* YLFindSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A740241E94CABDD2BAC28235D8F410 /* YLFindSymbol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2202ADE022573D31D22F446BD4E2FDB4 /* YLFindSymbol.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = YLFindSymbol.cpp; path = YLFindSymbol/Classes/YLFindSymbol.cpp; sourceTree = "<group>"; };
+		2902FA3050AF665C84529A61FBFCF489 /* libYLFindSymbol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYLFindSymbol.a; path = libYLFindSymbol.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E9371632141397ED6722987077B075 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3888C9574FC852B7C4D45AEEDDE361C4 /* YLFindSymbol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLFindSymbol.release.xcconfig; sourceTree = "<group>"; };
+		4313135B8D063B565CBF9A58ED433CD8 /* YLImageSymbol.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = YLImageSymbol.mm; path = YLFindSymbol/Classes/YLImageSymbol.mm; sourceTree = "<group>"; };
+		83E6007475139F74D955C069F0E52A0E /* YLFindSymbol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLFindSymbol-dummy.m"; sourceTree = "<group>"; };
+		936C927F447D3EEABCF054BD986081C3 /* YLFindSymbol.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YLFindSymbol.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F9C60632718BC6B45FEDB35CAD3559 /* YLFindSymbol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFindSymbol-prefix.pch"; sourceTree = "<group>"; };
+		AE0B02606F1E27294DFC27E269E4EF62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C1A740241E94CABDD2BAC28235D8F410 /* YLFindSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLFindSymbol.h; path = YLFindSymbol/Classes/YLFindSymbol.h; sourceTree = "<group>"; };
+		E610F6ABF22122AC0E905F603AFBCD19 /* YLFindSymbol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLFindSymbol.debug.xcconfig; sourceTree = "<group>"; };
+		EBF97A2AA5EFCCBAC3AE03F0B1B9DECF /* YLImageSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLImageSymbol.h; path = YLFindSymbol/Classes/YLImageSymbol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29F6F98C3DF7DA0253B23146620595F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A656F6B82DF418BF7D4B6C066CECC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2902FA3050AF665C84529A61FBFCF489 /* libYLFindSymbol.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341E4FDB9FAC9A56FB7252113648BE3A /* YLFindSymbol */ = {
+			isa = PBXGroup;
+			children = (
+				2202ADE022573D31D22F446BD4E2FDB4 /* YLFindSymbol.cpp */,
+				C1A740241E94CABDD2BAC28235D8F410 /* YLFindSymbol.h */,
+				EBF97A2AA5EFCCBAC3AE03F0B1B9DECF /* YLImageSymbol.h */,
+				4313135B8D063B565CBF9A58ED433CD8 /* YLImageSymbol.mm */,
+				9D66361F145E86E35BE61A14F66E4046 /* Pod */,
+				56982614FCC895D89229D67193F9B5D4 /* Support Files */,
+			);
+			name = YLFindSymbol;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		461F0D3C22A07C872E380654CCDB1B81 = {
+			isa = PBXGroup;
+			children = (
+				986791E4483BD75F36B0F19678265887 /* Frameworks */,
+				18A656F6B82DF418BF7D4B6C066CECC4 /* Products */,
+				341E4FDB9FAC9A56FB7252113648BE3A /* YLFindSymbol */,
+			);
+			sourceTree = "<group>";
+		};
+		56982614FCC895D89229D67193F9B5D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83E6007475139F74D955C069F0E52A0E /* YLFindSymbol-dummy.m */,
+				A1F9C60632718BC6B45FEDB35CAD3559 /* YLFindSymbol-prefix.pch */,
+				E610F6ABF22122AC0E905F603AFBCD19 /* YLFindSymbol.debug.xcconfig */,
+				3888C9574FC852B7C4D45AEEDDE361C4 /* YLFindSymbol.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLFindSymbol";
+			sourceTree = "<group>";
+		};
+		986791E4483BD75F36B0F19678265887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D66361F145E86E35BE61A14F66E4046 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32E9371632141397ED6722987077B075 /* LICENSE */,
+				AE0B02606F1E27294DFC27E269E4EF62 /* README.md */,
+				936C927F447D3EEABCF054BD986081C3 /* YLFindSymbol.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B45CA1D914563FE728511E3186A8160 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83D9DB8AF18B35F7CBA84E8167A51A8 /* YLFindSymbol.h in Headers */,
+				25819D3A2EB63797378D6BCADB81C9CC /* YLImageSymbol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F92F6749C3B740AB4D914BC5672C9AA /* YLFindSymbol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD5AC8A532F1371D4FEB958A8AACD15 /* Build configuration list for PBXNativeTarget "YLFindSymbol" */;
+			buildPhases = (
+				7B45CA1D914563FE728511E3186A8160 /* Headers */,
+				6C5CAA233B1AE43A544A6B454C012932 /* Sources */,
+				C29F6F98C3DF7DA0253B23146620595F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLFindSymbol;
+			productName = YLFindSymbol;
+			productReference = 2902FA3050AF665C84529A61FBFCF489 /* libYLFindSymbol.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2921112A0E3EE25566F3D68C1ED368B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 483294536EF6CE12A0831500EF782593 /* Build configuration list for PBXProject "YLFindSymbol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461F0D3C22A07C872E380654CCDB1B81;
+			productRefGroup = 18A656F6B82DF418BF7D4B6C066CECC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F92F6749C3B740AB4D914BC5672C9AA /* YLFindSymbol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C5CAA233B1AE43A544A6B454C012932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B6CA0D47B9D1EF81265CFF77C16F7A /* YLFindSymbol-dummy.m in Sources */,
+				CC34D78D4060428EF51206B0EC247C2E /* YLFindSymbol.cpp in Sources */,
+				70C341AC8295222163DD6C2796D51E26 /* YLImageSymbol.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		504AD3CF08BB12C4A5D64ED13686AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B3390F61CBD2A7A29147C860198B6B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3888C9574FC852B7C4D45AEEDDE361C4 /* YLFindSymbol.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YLFindSymbol/YLFindSymbol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YLFindSymbol;
+				PRODUCT_NAME = YLFindSymbol;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56C8A98C1B4B8FF26CEEB906DCB7F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D8E46B479032DF0181448CBCAEBA3095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E610F6ABF22122AC0E905F603AFBCD19 /* YLFindSymbol.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YLFindSymbol/YLFindSymbol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YLFindSymbol;
+				PRODUCT_NAME = YLFindSymbol;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		483294536EF6CE12A0831500EF782593 /* Build configuration list for PBXProject "YLFindSymbol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504AD3CF08BB12C4A5D64ED13686AE8C /* Debug */,
+				B56C8A98C1B4B8FF26CEEB906DCB7F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD5AC8A532F1371D4FEB958A8AACD15 /* Build configuration list for PBXNativeTarget "YLFindSymbol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E46B479032DF0181448CBCAEBA3095 /* Debug */,
+				B3390F61CBD2A7A29147C860198B6B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2921112A0E3EE25566F3D68C1ED368B6 /* Project object */;
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YLFindSymbol'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YLFindSymbol.'
+  s.summary          = 'dlsym的一种实现方式'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+在调用一些方法时候,需要使用dlopen,dlsym,但是苹果在审核的时候对使用这两个方法的应用,常常会审核不通过,所以,这里可以通过实现一个查找符号的方式,找到符号dlopen,dlsym,然后调用
                        DESC
 
   s.homepage         = 'https://github.com/yohunl/YLFindSymbol'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'YLFindSymbol/Classes/**/*'
-  
+  s.libraries = "z", "c++"
   # s.resource_bundles = {
   #   'YLFindSymbol' => ['YLFindSymbol/Assets/*.png']
   # }
